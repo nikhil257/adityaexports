@@ -211,7 +211,7 @@ a:hover .button-primary {
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(249, 246, 240, 0.9);
+  background: black;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--color-border);
@@ -259,12 +259,12 @@ a:hover .button-primary {
 .navbar__links a {
   font-size: 0.9375rem;
   font-weight: 500;
-  color: var(--color-text-muted);
+  color: white;
   transition: color 0.2s ease;
 }
 
 .navbar__links a:hover {
-  color: var(--color-text);
+  color: var(--color-gold);
 }
 
 /* ── Hero ─────────────────────────────────────────────────── */
